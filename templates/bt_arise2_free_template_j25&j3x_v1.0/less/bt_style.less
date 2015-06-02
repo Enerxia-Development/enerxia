@@ -1,0 +1,775 @@
+
+//BT Variable
+//@templateColor		: #89a408; //768b0a
+//@imagePath 			: "../images";
+//@mainFontFamily		: "Roboto";
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family:@mainFontFamily;
+}
+select[disabled], textarea[disabled], input[type="text"][disabled], input[type="password"][disabled], input[type="datetime"][disabled], input[type="datetime-local"][disabled], input[type="date"][disabled], input[type="month"][disabled], input[type="time"][disabled], input[type="week"][disabled], input[type="number"][disabled], input[type="email"][disabled], input[type="url"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="color"][disabled], .inputbox[disabled], select[readonly], textarea[readonly], input[type="text"][readonly], input[type="password"][readonly], input[type="datetime"][readonly], input[type="datetime-local"][readonly], input[type="date"][readonly], input[type="month"][readonly], input[type="time"][readonly], input[type="week"][readonly], input[type="number"][readonly], input[type="email"][readonly], input[type="url"][readonly], input[type="search"][readonly], input[type="tel"][readonly], input[type="color"][readonly], .inputbox[readonly], fieldset[disabled] select, fieldset[disabled] textarea, fieldset[disabled] input[type="text"], fieldset[disabled] input[type="password"], fieldset[disabled] input[type="datetime"], fieldset[disabled] input[type="datetime-local"], fieldset[disabled] input[type="date"], fieldset[disabled] input[type="month"], fieldset[disabled] input[type="time"], fieldset[disabled] input[type="week"], fieldset[disabled] input[type="number"], fieldset[disabled] input[type="email"], fieldset[disabled] input[type="url"], fieldset[disabled] input[type="search"], fieldset[disabled] input[type="tel"], fieldset[disabled] input[type="color"], fieldset[disabled] .inputbox{
+	background:#fff;
+}
+a{
+	color: @templateColor;
+}
+select::-moz-placeholder,
+textarea::-moz-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="datetime"]::-moz-placeholder,
+input[type="datetime-local"]::-moz-placeholder,
+input[type="date"]::-moz-placeholder,
+input[type="month"]::-moz-placeholder,
+input[type="time"]::-moz-placeholder,
+input[type="week"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="url"]::-moz-placeholder,
+input[type="search"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="color"]::-moz-placeholder,
+.inputbox::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+select:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="datetime"]:-ms-input-placeholder,
+input[type="datetime-local"]:-ms-input-placeholder,
+input[type="date"]:-ms-input-placeholder,
+input[type="month"]:-ms-input-placeholder,
+input[type="time"]:-ms-input-placeholder,
+input[type="week"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="url"]:-ms-input-placeholder,
+input[type="search"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="color"]:-ms-input-placeholder,
+.inputbox:-ms-input-placeholder {
+  color: inherit;
+}
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="datetime"]::-webkit-input-placeholder,
+input[type="datetime-local"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+input[type="month"]::-webkit-input-placeholder,
+input[type="time"]::-webkit-input-placeholder,
+input[type="week"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="color"]::-webkit-input-placeholder,
+.inputbox::-webkit-input-placeholder {
+  color: inherit;
+}
+select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .inputbox:focus{
+	border:1px solid #cdcdcd;
+	box-shadow:none;
+}
+body{
+	color:#545454;
+}
+/*======= HEADER =======*/
+.t3-header{
+	background:url("@{imagePath}/bg_header.png") no-repeat scroll center top @templateColor;
+}
+.t3-mainnav{
+	font-family:@mainFontFamily;
+}
+.t3-mainnav .t3-megamenu ul.navbar-nav > li:first-child > a{
+	padding-left:0;
+}
+
+.logo_block .logo .logo-img{
+	margin: 35px 0 0 5px;
+}
+
+
+
+
+.t3-mainbody:before{
+	background:url("@{imagePath}/bg_header2.png") no-repeat scroll center top @templateColor;
+}
+.t3-mainbody:after{
+	border-top:6px solid @templateColor;
+}
+.t3-mainbody .t3-mainbody-inner > .container:before,
+.bt_slideshow .container:before{
+	background:url("@{imagePath}/bg_mainbody_container_before.png") no-repeat scroll right top transparent;
+}
+
+
+#btl-panel-registration:before{
+	background: @templateColor;
+}
+#btl-panel-login:hover:before{
+	background: @templateColor;
+}
+
+.head-search .form-control{
+	border:1px solid lighten(@templateColor, 20%)!important;
+	background: rgba(255,255,255,0.2);
+}
+.head-search .search .btn-primary{
+	background:url("../images/search_button.png") no-repeat scroll right top transparent!important;
+	border-radius:5px;
+	width:31px;
+	padding:0;
+	height:31px;
+	line-height:31px;
+	border:none;
+	margin-left:2px;
+	color:#fff;
+	font-size:16px;
+	text-shadow:none;
+}
+
+
+
+
+
+.bt_slideshow:before{
+	background:url("@{imagePath}/bg_header2.png") no-repeat scroll center top @templateColor;
+}
+.ss-buttons a.preview-bt:hover,.ss-buttons a.download-bt{
+	background: lighten(@templateColor, 10%);
+}
+.box_skitter .info_slide_dots .image_number{
+	background:#747474!important;
+}
+.box_skitter .info_slide_dots .image_number_select, .box_skitter .info_slide_dots .image_number:hover{
+	background: lighten(@templateColor, 5%)!important;
+}
+.t3-module .module-title{
+	font-family:@mainFontFamily;
+}
+.t3-footnav .t3-module ul.nav-pills{
+	font-family:@mainFontFamily;
+}
+.t3-footnav .t3-module ul.nav-pills > li > a:hover, 
+.t3-footnav .t3-module ul.nav-pills > li > a:active, 
+.t3-footnav .t3-module ul.nav-pills > li > a:focus,
+.t3-footnav .t3-module ul.nav-pills > li.active > a{
+	color:@templateColor;
+}
+.t3-copyright{
+	font-family:@mainFontFamily;
+}
+.contact_footer{
+	font-family:@mainFontFamily;
+}
+.contact_footer .addres_line:before, .contact_footer .email_line:before,
+.contact_footer .phone_line:before, .contact_footer .website_line:before{
+	color:@templateColor;
+}
+.email_line{
+	color:@templateColor;
+	padding-top:12px;
+}
+.phone_line{
+	color:@templateColor;
+	padding-top:5px;
+}
+.website_line{
+	color:@templateColor;
+	padding-top:7px;
+}
+
+h2.articleTitle_ft a:hover{
+	color:@templateColor;	
+}
+
+
+
+.menu_sidebar{
+	background:@templateColor;
+}
+.accordionLayout .bt-inner{
+	font-family:@mainFontFamily;
+}
+.accordionLayout .bt-inner .bt-title:hover,
+.accordionLayout .actived .bt-inner .bt-title{
+	background:lighten(@templateColor,5%);
+	color:#fff;
+}
+.accordionLayout .bt-inner .readmore{
+	color:lighten(@templateColor,5%);
+}
+.k2UserList-item{
+	font-family:@mainFontFamily;
+}
+.defaultLayout{
+	font-family:@mainFontFamily;
+}
+.defaultLayout .bt-contentshowcase > h3{
+	border-top:3px solid @templateColor!important;
+}
+.defaultLayout .bt-inner .readmore a{
+	color:@templateColor;
+}
+.defaultLayout2 .btcontentshowcase-prev:hover,.defaultLayout2 .btcontentshowcase-next:hover{
+	color:#fff;
+	background:@templateColor;
+}
+
+.defaultLayout2{
+	font-family:@mainFontFamily;
+}
+.defaultLayout2 .bt-inner .bt-category {
+	color:@templateColor;
+}
+.defaultLayout2 .bt-inner .bt-title:hover{
+	color:@templateColor;
+}
+.introSite h3{
+	font-family:@mainFontFamily;
+}
+.breadcrumb .fa-home{
+	color:@templateColor;
+}
+.breadcrumb > li + li:before {
+	color:@templateColor;
+}
+.breadcrumb{
+	font-family:@mainFontFamily;
+}
+div.itemTagsBlock ul.itemTags,
+div.catItemTagsBlock ul.catItemTags,
+div.userItemTagsBlock ul.userItemTags,
+div.latestItemTagsBlock ul.latestItemTags{
+	font-family:@mainFontFamily;
+}
+div.itemHeader,
+div.itemHeader h2.itemTitle,
+div.catItemHeader h3.catItemTitle,
+div.tagItemHeader h2.tagItemTitle,
+div.userItemHeader h3.userItemTitle{
+	font-family:@mainFontFamily;
+}
+div.catItemHeader h3.catItemTitle a:hover,
+div.tagItemHeader h2.tagItemTitle a:hover,
+div.userItemHeader h3.userItemTitle a:hover{
+	color:@templateColor;
+}
+.k2ItemInfo a{
+	color:@templateColor;
+}
+.k2ItemInfo{
+	font-family:@mainFontFamily;
+}
+div.catItemReadMore a,
+div.tagItemReadMore a,
+div.userItemReadMore a,
+div.latestItemReadMore a,
+.articleItem .readmore a{
+	background:@templateColor;
+}
+div.itemTagsBlock ul.itemTags li a:hover,
+div.catItemTagsBlock ul.catItemTags li a:hover,
+div.userItemTagsBlock ul.userItemTags li a:hover,
+div.latestItemTagsBlock ul.latestItemTags li a:hover{
+	background:@templateColor;
+	color:#fff;
+}
+h3.itemAuthorName{
+	font-family:@mainFontFamily;
+}
+div.itemAuthorLatest ul li a{
+	color:@templateColor;
+}
+div.itemComments ul.itemCommentsList li{
+	font-family:@mainFontFamily;
+}
+div.itemCommentsForm form input#submitCommentButton{
+	font-family:@mainFontFamily;
+	background:@templateColor;
+}
+.articleItem h2.articleTitle a:hover{
+	color:@templateColor;
+}
+.articleItemInfo{
+	font-family:@mainFontFamily;
+}
+.my-pagination li a.pagenav:hover,
+.my-pagination li span.pagenav{
+	background:@templateColor;
+	border:1px solid @templateColor;
+	color:#fff;
+}
+.articleDetailInfo{
+	font-family:@mainFontFamily;
+}
+div.k2TagCloudBlock {
+	font-family:@mainFontFamily;
+}
+div.k2TagCloudBlock a:hover{
+	background:@templateColor;
+	border:1px solid @templateColor;
+}
+.layout_default  .btp-list .btp-item-title{
+	font-family:@mainFontFamily;
+}
+.layout_default .readmore a.detail{
+	background:@templateColor;
+}
+link-divs .zoom-img-default-layout,
+.link-divs .readmore_detail:hover{
+	color:@templateColor;
+}
+.link-divs .readmore_detail,
+.link-divs .zoom-img-default-layout:hover{
+	background:@templateColor;
+}
+.layout_foto .btp-item-inner{
+	font-family:@mainFontFamily;
+}
+.layout_foto .btp-categories a:hover, .layout_foto .btp-categories a.active{
+	background:@templateColor;
+	border:1px solid @templateColor;
+	color:#fff;
+}
+.layout_foto .btp-item-inner:hover{
+	background:@templateColor;
+}
+.layout_foto .btp-item-inner:hover .btp-list-item-intro a{
+	color:#fff;
+	text-decoration:none;
+}
+#btp-form-comment, .btp-comments, .modules_on_portfolio{
+	font-family:@mainFontFamily;
+}
+#btp-form-comment .btp-submit-comment button{
+	background:@templateColor;
+}
+div.btp-detail-desc{
+	font-family:@mainFontFamily;
+}
+.btp-detail-extrafields .extrafield-row .extrafield-title{
+	color:@templateColor;
+}
+.title_testimonial{
+	color:@templateColor;
+}
+.btsc-testimonials-bottom-right .btsc-testimonials-info-alias .btsc-testimonials-name{
+	font-size:14px;
+	color:@templateColor;
+}
+#eblog-wrapper .blog-meta-list-item a:hover{
+	color:@templateColor;
+}
+#ezblog-body .blog-title{
+	font-family:@mainFontFamily;
+}
+#ezblog-body .blog-content .blog-text{
+	font-family:@mainFontFamily;
+}
+#ezblog-body .blog-meta-bottom div > span + span{
+	border-left:1px solid @templateColor;
+}
+#ezblog-body .blog-taglist{
+	font-family:@mainFontFamily;
+}
+#eblog-wrapper .blog-taglist a:hover{
+	background:@templateColor;
+	border:1px solid @templateColor;
+	color:#fff;
+}
+#ezblog-menu .blog-navi, #ezblog-dashboard .ui-toolbar{
+	background:@templateColor;
+}
+#ezblog-menu .blog-navi li.toolbar-item > a:hover, #ezblog-menu .blog-navi li.toolbar-item > a:focus,
+#ezblog-menu .blog-navi .user-access a.active,
+#ezblog-dashboard .ui-toolbar li > a:hover, #ezblog-dashboard .ui-toolbar li > a:focus,
+#ezblog-dashboard .ui-toolbar li.active > a{
+	background:darken(@templateColor,7%);
+}
+
+.author-info-head .author-name a:hover{
+	color:@templateColor;
+}
+.author-info .author-about {
+	font-family:@mainFontFamily;
+}
+h3.authorRecent_titleBox{
+	color:@templateColor;
+}
+.authorRecent ul.entry-related-post li a:hover,
+#ezblog-body #section-related .entry-related-post li a:hover{
+	color:@templateColor;
+}
+#comment-form.blog-section #btnSubmit{
+	font-family:@mainFontFamily;
+	background:url("../images/left_submit_easy_comment.png") no-repeat scroll left top @templateColor;
+}
+#ezblog-body .blog-section .section-title{
+	color:@templateColor;
+}
+
+
+body .ui-stars-star a{
+	background:url("@{imagePath}/easyblog/easy-rate-image.png") repeat-x scroll left top transparent!important;
+}
+body .ui-stars-star-hover a, body .ui-stars-star-hover a:hover{
+	background:url("@{imagePath}/easyblog/easy-rate-image.png") repeat-x scroll left -17px transparent!important;
+}
+body .ui-stars-star-on a{
+	background:url("@{imagePath}/easyblog/easy-rate-image.png") repeat-x scroll left -34px transparent!important;
+}
+#ezblog-body .comment-content{
+	font-family:@mainFontFamily;
+}
+#ezblog-body .blog-read .blog-title{
+	color:@templateColor;
+}
+#ezblog-body .blog-read .blog-brief a{
+	color:@templateColor;
+}
+.easy-component-title{
+	color:@templateColor;
+}
+#ezblog-menu .blog-navi .user-form form a{
+	color:@templateColor!important;
+}
+#ezblog-menu .blog-navi .user-form form .button{
+	font-family:@mainFontFamily;
+	background:@templateColor!important;
+	
+}
+#ezblog-body #ezblog-bloggers h3.profile-title a:hover,
+#ezblog-body #ezblog-category h3.profile-title a:hover{
+	color:@templateColor;
+}
+#ezblog-body #ezblog-bloggers .profile-item,
+#ezblog-body #ezblog-category .profile-item{
+	font-family:@mainFontFamily;
+}
+.heading-ezblog-bloggers{
+	color:@templateColor;
+	font-family:@mainFontFamily;
+}
+.featureTitle{
+	font-family:@mainFontFamily;
+}
+#ezblog-body ul.featured-entries .featured-meta a:hover{
+	color:@templateColor;
+}
+.featuredReadmore a{
+	background:@templateColor!important;
+}
+#ezblog-body .featured-a a:hover, #ezblog-body .featured-a a.active{
+	background:@templateColor;
+}
+div.userBlock{
+	font-family:@mainFontFamily;
+}
+
+
+.btp-slideshow .box_skitter .prev_button{
+	background:url("../images/slideshow_portfolio_back.png") no-repeat scroll center center #7b7b7b;
+}
+.btp-slideshow .box_skitter .prev_button:hover{
+	background:url("../images/slideshow_portfolio_back.png") no-repeat scroll center center @templateColor;
+}
+.btp-slideshow .box_skitter .next_button{
+	background:url("../images/slideshow_portfolio_next.png") no-repeat scroll center center #7b7b7b;
+}
+.btp-slideshow .box_skitter .next_button:hover{
+	background:url("../images/slideshow_portfolio_next.png") no-repeat scroll center center @templateColor;
+}
+
+
+.weblink-category .webLinkItemHit, .results-number {
+    float: left;
+	background:@templateColor;
+}
+.weblink-category .list-title a:hover, .showLink, .result-title a:hover {
+    color: @templateColor;
+}
+.weblink-category .list-title a:hover, .result-title a:hover{
+	color: @templateColor;
+}
+#searchForm .word .button, .finder #smartsearch-btn, .archive fieldset.filters .btn-primary {
+    background:@templateColor;
+}
+.archive_published {
+    background:@templateColor;
+}
+.archiveBlogItemHeader{
+	font-family:@mainFontFamily;
+}
+.archive fieldset.filters .btn-primary {
+	background:@templateColor!important;
+}
+
+#btl-content-login .btl-input .user:focus {
+    background: url("@{imagePath}/user-focus.png") no-repeat scroll 9px center transparent!important;
+    border: 1px solid @templateColor!important;
+}
+#btl-content-login .btl-input .pass:focus {
+    background: url("@{imagePath}/pass-focus.png") no-repeat scroll 9px center transparent!important;
+    border: 1px solid @templateColor!important;
+}
+.btl-content-block h3{
+	font-family:@mainFontFamily;
+}
+#btl-content-login input.btl-buttonsubmit,
+#btl-content-registration button.btl-buttonsubmit{
+	background:@templateColor;
+	font-family:@mainFontFamily;
+}
+button.btl-buttonlogout{
+	background:@templateColor!important;
+	font-family:@mainFontFamily;
+}
+#btl-formregistration .btl-input > input:focus, #btl-formregistration .inputbox:focus,
+#btl-formregistration .btl-input > textarea:focus {
+    border: 1px solid @templateColor!important;
+}
+a.fancybox-close:hover {
+    background: url("@{imagePath}/close-hover.png") no-repeat scroll left top transparent;
+}
+#btl-content #btl-content-profile #module-in-profile ul li a:hover{
+	color:@templateColor;
+}
+.profile-edit #menu .nav li.active a {
+    background: transparent;
+    border-top: 3px solid @templateColor;
+}
+.profile-edit #menu .nav li a {
+    color: @templateColor;
+}
+#member-profile .btn-submit button.submitButton, #member-registration .btn-submit button.submitButton{
+	background: @templateColor;
+}
+.socialLoginPage button.btn-primary{
+	background: @templateColor!important;
+}
+.reset .btl_submit, .remind .btl_submit,
+.reset-confirm .btl_submit, .reset-complete .btl_submit{
+	background: @templateColor;
+}
+.login_wapper .submit_button button.button,
+.register_wapper .register-fields-input button.button{
+	background: @templateColor;
+}
+#btl-content #btl-content-profile #module-in-profile ul li.active a,
+#btl-content #btl-content-profile #module-in-profile ul li a:hover{
+	color: @templateColor;
+}
+
+.jshop_list_product .productItemInner .buttons a.button_buy{
+	color:@templateColor;
+	background:#fff;
+}
+.jshop_list_product .productItemInner .buttons a.button_detail{
+	background:@templateColor;
+	color:#fff;
+}
+.jshop_list_product .productItemInner .buttons a.button_detail:hover{
+	color:@templateColor;
+	background:#fff;
+}
+.jshop_list_product .productItemInner .buttons a.button_buy:hover{
+	background:@templateColor;
+	color:#fff;
+}
+.jshop_list_product .productItemInner .jshop_price{
+	background:@templateColor;
+	color:#fff;
+}
+
+.productItemListInfor{
+	border-top:3px solid @templateColor;
+}
+.jshop_list_product .productItemInner .productListCategory{
+	color:@templateColor;
+}
+.jshop_list_product .productItemInner .name a:hover{
+	color:@templateColor;
+}
+.review_title{
+	font-family:@mainFontFamily;
+}
+.jShopReviewList .review_item,
+#jshop_review_write{
+	font-family:@mainFontFamily;
+}
+.jShopReviewSubmitButton .button{
+	background:@templateColor;
+}
+.productInfoTitle, .productDesc{
+	color:@templateColor;
+}
+.productColRight{
+	font-family:@mainFontFamily;
+}
+
+.addCart{
+	background: url("../images/icon_cart.png") no-repeat scroll 9px center @templateColor;
+}
+.productfull #block_price{
+	color:@templateColor;
+	font-family:@mainFontFamily;
+}
+.cartPrice, .cartTotal{
+	color:@templateColor;
+}
+.cartProductName .cart_productName{
+	color:@templateColor;
+}
+.jshop.cart,.checkOutBox{
+	font-family:@mainFontFamily;
+}
+.checkOutLink{
+	background:@templateColor;
+}
+.checkOutBox_left .discountButton{
+	background: url("../images/arrow_discount_button.png") no-repeat scroll center center @templateColor;
+}
+.jShopLogin{
+	font-family:@mainFontFamily;
+}
+.jShopLogin .small_header,.jShopRegisterTitle{
+	color:@templateColor;
+}
+.jShopLoginField .button{
+	background:@templateColor;
+}
+.aboutUsPage, .ourServicePage, .ourTeamPage{
+	font-family:@mainFontFamily;
+}
+.btsc-skillbars-content-skill .skill .skill-level{
+	background:@templateColor!important;
+}
+.ourServicesBox:hover{
+	background:@templateColor;
+	color:#fff;
+}
+.ourServicesBox:hover .ourServicesBoxReadmore a{
+	color:#fff;
+	border:2px solid #fff;
+}
+.customTestimonial .testimonialName{
+	color:@templateColor;
+}
+.testimonialButtonDirection a:hover{
+	background:@templateColor;
+	color:#fff;
+}
+.ourTeamUserDetailInfoName{
+	color:@templateColor;
+}
+
+.t3-megamenu .dropdown-header, .t3-megamenu .mega-nav .mega-group > .dropdown-header, 
+.t3-megamenu .dropdown-menu .mega-nav .mega-group > .dropdown-header, 
+.t3-megamenu .dropdown-menu .active .mega-nav .mega-group > .dropdown-header{
+	color:@templateColor!important;
+}
+.t3-megamenu{
+	font-family:@mainFontFamily;
+}
+.t3-megamenu .dropdown-menu li.active > a,
+.t3-megamenu .dropdown-menu li > a:hover,
+.t3-megamenu .mega-nav > li a:hover, 
+.t3-megamenu .dropdown-menu .mega-nav > li a:hover, 
+.t3-megamenu .mega-nav > li a:focus, 
+.t3-megamenu .dropdown-menu .mega-nav > li a:focus{
+	color:@templateColor!important;
+}
+.t3-off-canvas{
+	font-family:@mainFontFamily;
+}
+
+#ezblog-menu .btn-eb-navbar, #ezblog-menu.narrow .btn-eb-navbar:focus, #ezblog-menu.narrow .btn-eb-navbar:hover, #ezblog-menu.narrow .btn-eb-navbar:active, #ezblog-menu.narrow .btn-eb-navbar.active, #ezblog-menu.narrow .btn-eb-navbar.disabled, #ezblog-menu.narrow .btn-eb-navbar[disabled]{
+	background-color:@templateColor;
+}
+#ezblog-menu.narrow{
+	background:@templateColor;
+}
+#ezblog-menu.narrow .toolbar-search{
+	margin:0;
+	background:darken(@templateColor, 5%);
+}
+.breadcrumbs a{
+	color:@templateColor;
+	text-decoration:none;
+}
+
+.image_block .bt-product-quick-view{
+	background: url("@{imagePath}/show_quickview.png") no-repeat scroll center center #fff;
+}
+
+
+.image_block .bt-product-quick-view:hover{
+	background: url("../images/show_quickview_hover.png") no-repeat scroll center center @templateColor;
+}
+.defaultLayout2 .btcontentshowcase-navigation .bullet.current{
+	background: @templateColor;
+	box-shadow: inset 0 0 3px darken(@templateColor, 10%);
+}
+.bt-fancy-box h4.product-name{
+	color:@templateColor!important;
+	font-weight:bold;
+}
+.bt-fancy-box .product-price span{
+	color:@templateColor!important;
+	font-weight:bold;
+}
+#btpqv-add-to-cart{
+	background-color: @templateColor!important;
+}
+.bt-fancy-box .product-category span{
+	color:@templateColor!important;
+}
+#btpqv-wrapper, .bt-fancy-box .fancybox-title h3{
+	font-family:@mainFontFamily;
+}
+.jLoginModule{
+	font-family:@mainFontFamily;
+}
+.jLoginModule input.button{
+	background: url("../images/blur_login_button.png") no-repeat scroll -30px center @templateColor;
+}
+.jLoginModule input.button:hover{
+	background: url("../images/blur_login_button.png") no-repeat scroll -23px center @templateColor;
+}
+.defaultLayout .sc_testmonial .btcontentshowcase-prev:hover{
+	background: url("../images/re_left.png") no-repeat scroll center center @templateColor!important;
+}
+.defaultLayout .sc_testmonial .btcontentshowcase-next:hover{
+	background: url("../images/re_right.png") no-repeat scroll center center @templateColor!important;
+}
+.mod_latest_products .item_price{
+	color:@templateColor;
+}
+.mod_latest_products .item_name a:hover{
+	color:@templateColor;
+}
+
+.customHTML_plane{
+	background: url("../images/blur_custom_plane.png") no-repeat scroll right top @templateColor;
+	box-shadow: 0 0 1px lighten(@templateColor, 5%);
+}
+.planeTextLine1{
+	color:@templateColor;
+}
+.defaultLayout.lastest_news_sidebar .bt-inner .bt-title:hover{
+	color:@templateColor;
+}
+
+
+
+
+
+
