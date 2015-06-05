@@ -1,0 +1,687 @@
+#btl-content-login #social-connect div{
+	color :#989898 ;	
+	margin-left: 15px;
+}
+#btl-content-login #social-connect li{
+	float: left;
+	list-style: none;
+	 margin: 5px 0 15px;
+	height:20px;
+	padding:0;
+}
+#btl-content-login #social-connect img{	
+	border-radius: 2px;
+}
+#btl-content-login #social-connect  a:hover img{
+	box-shadow: 0 3px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	margin-top:1px;
+}
+#btl-content-login #social-connect  a{
+	text-decoration: none!important;
+}
+#btl-content-login .social_btlogin {
+	border-bottom: 1px solid #ECECEC;
+	padding:0px 0 25px;
+}
+#btl-content-login #social-connect  a:HOVER,#btl-content-login #social-connect  a:ACTIVE,#btl-content-login #social-connect  a:FOCUS{
+	text-decoration: none!important;
+	background-color: transparent !important;
+}
+/* Overlay , enable it if display in header, and header{over-flow:hidden;} */
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container a.modalCloseImg {background:url(../images/close_bt.png) top no-repeat; width:26px; height:26px; display:inline; z-index:3200; position:absolute; top:6px; right:10px; cursor:pointer;}
+#simplemodal-container a.modalCloseImg:hover {background:url(../images/close_bt.png) bottom no-repeat; width:26px; height:26px; display:inline; z-index:3200; position:absolute; top:6px; right:10px; cursor:pointer;}
+.btl-input #modlgn-username ,.btl-input #modlgn-passwd{
+	width:auto;
+}
+#btl-panel-login,#btl-panel-registration{
+	border:1px solid #c1c1c1 !important; 
+}
+
+.iconlogin{
+ width:20px;
+ height:28px;
+ float:left;
+ background:url(../images/login.png) center left no-repeat;
+
+}
+.simplemodal-wrap{
+	overflow:visible!important;
+}
+.btl-content-block{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+	border:1px solid #dadada;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
+    display: none;
+    height: auto;
+    overflow: hidden;
+    text-align: left;	
+	font-size:12px;
+	position:relative;
+	padding: 0 0 10px;
+	box-sizing:border-box;
+}
+.btl-content-block form{
+	margin:0;
+	padding:0;
+	color:#737373;
+}
+.btl-content-block h3{
+	background: #ededed;   
+	line-height: 40px;
+	margin:0px;
+    padding: 3px 0px 0px 19px;
+	text-transform: uppercase;	
+	color: #909090;
+}
+.btl-input > input[type=text],
+.btl-input > input[type=password],
+.btl-input > input[type=file]{	
+    border: 1px solid #CCCDCF;
+    border-radius: 2px;   
+    display: inline;   
+    height: 20px;
+    margin: 0 0;
+    padding: 5px 0px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;		
+	color:#737373;		
+	background:none;
+}
+
+.btl-formlogin .btl-field{
+}
+#btl-content-login .btl-formlogin{
+}
+
+#btl-formregistration .btl-input > input[type=text] ,
+#btl-formregistration .btl-input > input[type=password],
+#btl-formregistration .btl-input > input[type=file],
+.btl-formregistration .inputupload input,
+.btl-formregistration select {	
+	width: 100%;
+}
+#btl-formregistration .btl-input > input[type=text] ,
+#btl-formregistration .btl-input > input[type=password]{
+	border:1px solid #cdcdcd;
+	height:32px;
+	padding:0 5px;
+}
+#btl-content-login .btl-input .user,#btl-content-login .btl-input .pass{
+	border:1px solid #cdcdcd;
+	width:100%;	
+	height:32px;
+	padding:0 5px 0 30px;
+}
+#btl-content-login .btl-input .user {   
+	background: url("../images/user.png")no-repeat scroll 9px center transparent;
+}
+#btl-content-login .btl-input .pass {
+	background: url("../images/pass.png") no-repeat scroll 9px center transparent;
+}
+#btl-content-login .btl-input .user:focus{
+	background: url("../images/login-user.png") no-repeat scroll 9px center transparent;
+	border: 1px solid #9CC8EB;
+}
+#btl-content-login .btl-input .pass:focus{
+	background: url("../images/focus-pass.png")  no-repeat scroll 9px center transparent;
+	border: 1px solid #9CC8EB;
+}
+
+#btl-formregistration .btl-input > input:focus,.inputbox:focus{
+	border-color: #9cc8eb; 
+	border:1px solid #9cc8eb;
+}
+#btl-formregistration .btl-input > textarea {
+	border: 1px solid #cdcdcd;
+    border-radius: 2px;
+	padding: 5px 10px;
+    width: 100%;
+	line-height:20px;
+}
+
+#btl{
+	position:relative;
+	overflow: hidden;	
+}
+#btl .btl-panel{
+	overflow:hidden;
+	
+}
+.btl-arrow{
+width: 15px;
+float:left;
+ height: 28px;
+ overflow: hidden;
+ background: url(../images/arrow.png) no-repeat right;
+
+}
+.btl-logout {
+    overflow: hidden;
+}
+#btl .btl-panel > #btl-panel-profile{
+	background:url(../images/btl-panel-bg.png) top right no-repeat;	
+	border-left:1px solid #9f9f9f;
+	border-top:1px solid #9f9f9f;
+	border-bottom:1px solid #9f9f9f;
+	overflow: hidden;
+	margin-top: 5px;
+}
+#btl .btl-panel #btl-panel-profile .input-group-addon {
+    float: left;
+  padding: 2px;	
+}
+#btl .btl-panel #btl-panel-profile .welcome {   
+    float: left;
+    margin-left: 5px;
+	color:#919191;
+}
+button::-moz-focus-inner {
+padding:0; border: none;
+}
+
+.btl-buttonsubmit .btl-button{
+	line-height:30px;
+	float:left;
+	margin:0 5px;
+}
+.btl-error{
+	display:none;	
+}
+.btl-error-detail{
+	display:none;
+	float: right;
+	color: #FF0000;
+	margin-bottom:4px;
+}
+.btl-field,#register-link,.btl-error-detail,.btl-error,.btl-note{			
+}
+.btl-field{
+	margin: 15px 0 0;	 
+	
+}
+#btl-content-registration .btl-field{
+	min-width:320px;
+	min-height: 30px;
+	line-height:30px;
+}
+
+#btl-formregistration .control-label{
+	padding:0!important;
+}
+
+ .btl-label{
+	float:left;
+	min-width: 140px;
+	padding:0;
+}
+ .btl-input{	
+	position: relative;
+}
+#btl-content-registration .btl-input{
+	margin-left:140px;
+}
+
+.fancybox-close {
+	background: url('../images/close.png') no-repeat ;
+	position: absolute;
+    right: 10px;
+    top: 12px ;
+	width:17px;
+	height:17px;
+}
+.fancybox-close:hover{
+	background: url('../images/close-hover.png') no-repeat;
+}
+
+#btl-content-registration .calendar ,
+#btl-content-registration .calendar table 
+{
+position: absolute;
+    right: 6px;
+    top: 7px;
+  
+}
+.btl-note{
+
+}
+
+#recaptcha{
+	height: auto!important;
+}
+.btl-rsub {
+   
+}
+#btl-input-remember{
+	float: right;
+    padding: 8px 0 0;
+	margin: 0 10px 0 0;
+}
+#btl-checkbox-remember{
+	vertical-align:middle;
+	padding:0;
+	margin:0;
+}
+
+.btl-error{
+	background:url("../images/error.png") no-repeat scroll 10px center #FFEFEF ;	
+    border: 1px solid #E3B0B0;
+    border-radius: 4px;
+    color: #FF0000;
+}
+.btn-icon-logout{
+	background: url("../images/power.png") no-repeat scroll center center transparent;  
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+.btl-border{
+ text-align: center!important;
+    width: auto!important;	
+	height:30px!important;	
+	border:1px solid #CCCCCC;
+	display:inline-block;
+	overflow: hidden;
+	background: url("../images/bg-lg.png") repeat-x scroll left top transparent;   
+	border-radius:3px;
+	margin-top: 15px;
+	cursor:pointer;	
+}
+input.btl-buttonsubmit,
+button.btl-buttonsubmit{   
+    cursor: pointer;
+    text-align: center!important;
+	padding: 7px;
+	border:0px;
+	display:inline-block;
+	color:#777777;
+}
+button.btl-buttonlogout{
+	border:0px;
+	cursor: pointer;
+	background: url("../images/logout.png") no-repeat ;
+}
+.btl-profile{
+	border:1px solid #e3e3e3;
+    padding: 0 ;
+	background: url("../images/bgnomal.png") repeat-x ;
+	width:100%;
+}
+div.btl-buttonsubmit{			
+
+}
+
+/* STYLE FOR DROP-DOWN PANEL (all element in  #btl-content) */
+#btl-content ul li a:hover{
+	color:#7BA428;
+	text-decoration: underline;
+	background-color: transparent;
+	
+}
+#btl-content > .btl-content-block{
+	position:absolute!important;
+	z-index:9999;
+}
+#btl-content #btl-content-login{
+	width:300px;
+}
+#btl-content-registration 
+#btl-content-login .btl-note,#register-link{	
+	margin-top:15px;
+}
+
+#btl-content div.btl-buttonsubmit{
+}
+#btl-content #btl-content-login .btl-label {
+}
+
+/* CSS FOR USER PROFILE MODULE**/
+#btl-content  #btl-content-profile{
+	overflow:hidden;
+}
+#module-in-profile{
+	min-width:200px;
+}
+#btl-content #btl-content-profile #module-in-profile ul{
+	position: static;	
+	text-align: left;
+	margin: 0 0 0 15px;
+	padding: 0;
+	
+}
+#btl-content-profile ul.menu li {
+    background: url("../images/tick.png") no-repeat scroll 5px 15px transparent;
+    padding: 0 0 0 20px!important;
+	border-bottom: 1px solid #E8E8E8;
+	display:list-item!important;
+    line-height: 37px;
+	
+}
+#btl-content #btl-content-profile #module-in-profile ul li a{
+	color: #6b6b6b;
+	text-decoration: none !important;
+	text-transform: none!important;
+	font-family: arial,tahoma;
+}
+
+#btl-content-profile ul.menu li a {
+    color: #616161!important;
+	text-decoration:none!important;
+	border:none!important;
+	background:none!important;
+	display:inline!important;
+	padding:0!important;
+	margin:0!important;
+	text-transform: none!important;
+}
+#btl-content-profile div.btl-buttonsubmit{
+	border: none!important;
+	text-align: center;
+	margin-top: 0!important;
+}
+
+#btl-content-login  .btl-text{
+	text-align:center;
+}
+#btl-content-login  .btl-formlogin{
+	padding:0 15px;
+}
+#btl-content-login div.btl-buttonsubmit{
+	float:right;
+}
+#btl-content-registration div.btl-buttonsubmit{
+	text-align:right;
+}
+
+
+
+
+/* style panel when action process */
+#btl-register-in-process,#btl-login-in-process{
+	display: none;
+	background: url("../images/loading.gif") no-repeat #000 50%;
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	top:-1px;
+	left:-1px;
+	padding-top:1px;
+	padding-left:1px;
+}
+
+/* style panel when register success */
+#btl-success{
+	display: none;
+	margin: 20px 0 30px 0;
+	background:url("../images/notice-info.png") no-repeat;
+	display: none;
+	color:#000;
+	border-bottom: 2px solid #90B203;
+	border-top: 2px solid #90B203;
+	font-size:14px;
+	padding: 10px 10px 10px 25px;
+}
+/* style for ul in login panel*/
+#bt_ul{
+	margin: 0;
+    padding:10px 0;
+	list-style-type: none;
+	text-align:center;
+	
+}
+#btl-content-login .btl-about{
+	margin-left:15px;
+	font-size:11px;
+	color:#737373;
+}
+#btl-content-login .btl-reset {  
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+	font-size:11px;
+	color:#737373;
+}
+#bt_ul li{
+	display:inline-block;
+}
+/* for modal*/
+#btl-content-login .social_btlogin ul{
+	height:95px !important;
+	padding: 5px 25px !important;
+	position: static!important;	
+	text-align: left;
+	list-style-type: disc !important;
+	background: none repeat scroll 0 0 #FBFBFB;
+	
+}
+#btl-content-login ul li{
+	margin: 0 5px;
+	background: url("../images/bullet.png") no-repeat left center transparent;
+	padding: 0 0 0 10px;
+}
+#bt_ul li a{
+	padding: 0!important;
+	text-decoration: none!important;
+	color:#565656  !important;
+	
+}
+#btl-wrap-module{
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.buttonhover{
+box-shadow: 5px 5px 5px #c4c3d0 ;
+
+}
+.bt-scroll{
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#btl-content-registration .bt-scroll-inner{
+	padding:0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #eee;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #dadada;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+.btl-formregistration select {   
+	background:url("../images/bg-select_register.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    padding: 5px 10px;   
+	color:#737373;
+	height:30px;
+	width: 252px;
+	border: 1px solid #CCCDCF;
+}
+
+.btl-formregistration select  option{
+ padding: 8px 10px;
+ display: block;
+ background: none repeat scroll 0 0 #FFFFFF;
+   border-bottom: 1px solid #E3E3E3;
+}
+.btl-formregistration .inputupload input{ 
+	border: 1px solid #cdcdcd;
+	text-align: left;
+	padding:0;
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #BBBBBB #BBBBBB #A2A2A2;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 3px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.btn-primary {
+    background-color: #54ACEE !important;
+    background-image: linear-gradient(to bottom, #54ACEE, #469CEB) !important;
+    background-repeat: repeat-x !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    color: #FFFFFF !important;
+    height: 30px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+}
+.post {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;	
+}
+
+.btl-space{
+padding:4px 2px;
+}
+
+#btl-poplogin .btl-input{
+	
+}
+
+.postfix {  
+    margin: 10px 0 0 10px;
+	border:0px;
+    display: inline-block;
+    height: 20px;   
+    vertical-align: top;  
+   width: 15px !important
+}
+.bt-scroll.moblile .btl-label {width: 70%;}
+.bt-scroll.moblile .btl-input input {width: 100% !important; min-width:0 !important;}

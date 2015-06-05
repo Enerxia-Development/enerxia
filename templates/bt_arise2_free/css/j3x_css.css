@@ -1,0 +1,51 @@
+
+
+#btl-content-registration .btl-input .input-append{
+	display:inherit;
+	margin:0;
+}
+#btl-formregistration .btl-input .input-append input[type="text"]{
+	width:100%;
+	border: 1px solid #cdcdcd;
+    height: 32px;
+    padding: 0 5px;
+	border-radius:2px;
+}
+button#fields_birthday_img{
+	position:absolute;
+	right:7px;
+	top:7px;
+	width:16px;
+	height:16px;
+	border:none;
+	background:none;
+	padding:0;
+}
+button#fields_birthday_img:before{
+	position:absolute;
+	height:100%;
+	width:100%;
+	text-align:center;
+	line-height:16px;
+	left:0;
+	top:0;
+	content:"\f073";
+	font-family: FontAwesome;
+}
+.link-divs .modal{
+	position:relative;
+	overflow:visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

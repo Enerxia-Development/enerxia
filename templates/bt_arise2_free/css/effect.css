@@ -1,0 +1,152 @@
+
+.bt-cs-custom .bt-inner:hover, .bt-cs-custom .bt-inner:hover a, 
+.bt-cs-custom .bt-inner:hover .bt-category, .bt-cs-custom .bt-inner:hover a:hover{
+	color:#fff;
+}
+.bt-cs-custom .bt-inner{
+	transition: background 0.7s ease 0s;
+	-o-transition: background 0.7s ease 0s;
+	-ms-transition: background 0.7s ease 0s;
+	-moz-transition: background 0.7s ease 0s;
+	-webkit-transition: background 0.7s ease 0s;
+}
+.defaultLayout .bt-inner a.bt-image-link,
+.bt-cs-custom .bt-inner a.bt-image-link{
+	display:inline-block;
+	overflow:hidden;
+}
+.defaultLayout .bt-inner a.bt-image-link:hover img,
+.bt-cs-custom .bt-inner a.bt-image-link:hover img{
+    transform: scale(1.3) rotate(-12deg);
+	-o-transform: scale(1.3) rotate(-12deg);
+	-ms-transform: scale(1.3) rotate(-12deg);
+	-moz-transform: scale(1.3) rotate(-12deg);
+	-webkit-transform: scale(1.3) rotate(-12deg);
+}
+.defaultLayout .bt-inner a.bt-image-link img,
+.bt-cs-custom .bt-inner a.bt-image-link img{
+    transition: transform 0.5s ease 0s;
+	-o-transition: -o-transform 0.5s ease 0s;
+	-ms-transition: -ms-transform 0.5s ease 0s;
+	-moz-transition: -moz-transform 0.5s ease 0s;
+	-webkit-transition: -webkit-transform 0.5s ease 0s;
+	opacity:1!important;
+}
+.layout_foto .btpListInner a.image-link{
+	background:#000;
+}
+.layout_foto .btpListInner a.image-link img{
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+.layout_foto .btpListInner .btp-item-image:hover a.image-link img{
+    transform: scale(1.3) rotate(-12deg);
+	-o-transform: scale(1.3) rotate(-12deg);
+	-ms-transform: scale(1.3) rotate(-12deg);
+	-moz-transform: scale(1.3) rotate(-12deg);
+	-webkit-transform: scale(1.3) rotate(-12deg);
+	opacity:0.5;
+}
+.layout_foto .btp-item-inner {
+    transition: background 0.7s ease 0s;
+}
+.layout_default .readmore a.detail{
+	transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	position:relative;
+	overflow:hidden;
+}
+.layout_default .readmore a.detail .readmoreIcon{
+	width:100%;
+	height:100%;
+	left:-100%;
+	top:0;
+	text-align:center;
+	position:absolute;
+	transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+}
+.layout_default .readmore a.detail:hover .readmoreIcon{
+	left:0;
+}
+.layout_default .readmore a.detail .readmoreText{
+	transform: translateX(0);
+    transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	display:inline-block;
+	padding:0 15px;
+}
+.layout_default .readmore a.detail:hover .readmoreText{
+	transform: translateX(100%);
+}
+
+
+
+
+@-moz-keyframes iconSocialDoctor {
+	from  	{ -moz-transform: translateX(-30px); opacity:0;}
+	to 		{ -moz-transform: translateX(0); opacity:1;}
+}
+@-webkit-keyframes iconSocialDoctor {
+	from 	{-webkit-transform: translateX(-30px); opacity:0;}
+	to 		{-webkit-transform: translateX(0); opacity:1;}
+}
+@-ms-keyframes iconSocialDoctor {
+	from 	{-ms-transform: translateX(-30px); opacity:0;}
+	to 		{-ms-transform: translateX(0); opacity:1;}
+}
+@-o-keyframes iconSocialDoctor {
+	from 	{-o-transform: translateX(-30px); opacity:0;}
+	to 		{-o-transform: translateX(0); opacity:1;}
+}
+@keyframes iconSocialDoctor {
+	from 	{transform: translateX(-30px); opacity:0;}
+	to 		{transform: translateX(0); opacity:1;}
+}
+
+.user-social-icon a:hover:before{
+	animation:0.35s ease 0s normal none 1 iconSocialDoctor;
+	-o-animation:0.35s ease 0s normal none 1 iconSocialDoctor;
+	-ms-animation:0.35s ease 0s normal none 1 iconSocialDoctor;
+	-moz-animation:0.35s ease 0s normal none 1 iconSocialDoctor;
+	-webkit-animation:0.35s ease 0s normal none 1 iconSocialDoctor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

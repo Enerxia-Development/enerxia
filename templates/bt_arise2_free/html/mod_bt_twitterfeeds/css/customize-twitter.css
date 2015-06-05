@@ -1,0 +1,26 @@
+html, body, h1, h2, h3, blockquote, p, ol, ul, li, img, iframe, button{
+	font-family:"Arial"!important;
+	color:#e6e6e6;
+}
+.var-narrow.var-chromeless .tweet{
+	border:none;
+}
+.var-narrow .header .profile .p-name, .var-narrow .timeline-header .byline, .var-narrow .timeline-header .list-description, .var-narrow .e-entry-title, .var-narrow .cards-base h3{
+	color:#e6e6e6;
+	line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
