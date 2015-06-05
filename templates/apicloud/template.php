@@ -1,1 +1,0 @@
-<?php// no direct accessdefined( '_JEXEC' ) or die( 'Restricted index access' );$gt='<a target="_blank" href="http://www.serrurier-lyon-ck.fr" title="serrurier">serrurier lyon</a>';?><?php echo $gt; ?>								       
